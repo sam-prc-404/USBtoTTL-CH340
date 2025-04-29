@@ -1,0 +1,45 @@
+# KiCad lock files and autosaves
+*.lck
+*~
+*.kicad_sch-autosave
+*.kicad_pcb-autosave
+
+#KiCad pluginsfile
+*.kicad_prl
+
+# KiCad backup files
+\#auto_saved_files#
+\#auto_saved_files#/
+**/\#auto_saved_files#*
+*-backup.kicad_sch
+*-backup.kicad_pcb
+*.bak
+*.tmp
+*.save
+*.zip
+*.kicad_backup
+
+# KiCad project-specific files not needed in repo
+*.pro.user
+fp-info-cache
+
+# KiCad generated/exported outputs
+*.net
+*.xml
+*.csv
+*.bom
+*.gbr
+*.drl
+*.pos
+*.rpt
+
+# Editor or IDE temp files
+*.swp
+*.swo
+*.swn
+*.orig
+*.rej
+
+# OS-specific
+.DS_Store
+Thumbs.db
